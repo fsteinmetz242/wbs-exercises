@@ -43,12 +43,14 @@
               id="plz"
               style="width: 40px; display: inline-block"
             />
+
             <label for="Ort" style="width: 52px; display: inline-block"
               >Ort</label
             >
             <input type="text" name="ort" id="ort" />
           </div>
-
+        </fieldset>
+        <fieldset>
           <div>
             <label for="email" style="width: 150px; display: inline-block"
               >E-Mail</label
@@ -68,7 +70,8 @@
               pattern="[0-9]{4}-[0-9]{5}"
             />
           </div>
-
+        </fieldset>
+        <fieldset>
           <div>
             <label for="iban" style="width: 150px; display: inline-block"
               >IBAN</label
@@ -97,6 +100,7 @@
             <!-- Auswahlbox mit 3 Möglichkeiten  -->
             <!-- Name muss bei allen Auswahlen gleich sein -->
             <!-- Das Feld ID bekommt einen eigenen Wert pro Element -->
+            <!-- Das for aus Label muss den gleichen Wert haben wie das Feld id von input -->
             <!-- In Value steht der Wert welcher bei Auswahl übergeben wird -->
             <input
               type="radio"
@@ -111,6 +115,25 @@
             <label for="bargeld">Bargeld</label>
           </div>
         </fieldset>
+
+        <fieldset>
+          <div>
+            <label for="kursauswahl">Kursauswahl</label>
+            <select name="kursauswahl" id="kursauswahl">
+              <option value="-- Bitte auswählen --"></option>
+              <option value="daai10">Data Analytics & AI</option>
+              <option value="wdg24">Web und App Programmierung</option>
+              <option value="dsai31">Data Sciens & AI</option>
+            </select>
+          </div>
+          <div>
+            <label for="agb">
+              <input type="checkbox" name="agb" id="agb" required />AGB
+              akzeptiert
+            </label>
+          </div>
+        </fieldset>
+
         <button
           type="reset"
           style="width: 100px; height: 50px; margin-top: 10px"
