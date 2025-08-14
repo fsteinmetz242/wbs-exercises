@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The phisher Coding School</title>
+  </head>
+  <body>
+    <header>
+      <h1>Sign up for free!</h1>
+    </header>
+    <section>
+      <form action="" method="get">
+        <fieldset>
+          <div>
+            <label for="vorname" style="width: 150px; display: inline-block"
+              >Vorname</label
+            >
+            <input type="text" name="vorname" id="vorname" />
+          </div>
+
+          <div>
+            <label for="nachname" style="width: 150px; display: inline-block"
+              >Nachname</label
+            >
+            <input type="text" name="nachname" id="nachname" />
+          </div>
+
+          <div>
+            <label for="strasse" style="width: 150px; display: inline-block"
+              >Strasse</label
+            >
+            <input type="text" name="strasse" id="strasse" />
+          </div>
+
+          <div>
+            <label for="plz" style="width: 40px; display: inline-block"
+              >PLZ</label
+            >
+            <input
+              type="text"
+              name="plz"
+              id="plz"
+              style="width: 40px; display: inline-block"
+            />
+            <label for="Ort" style="width: 52px; display: inline-block"
+              >Ort</label
+            >
+            <input type="text" name="ort" id="ort" />
+          </div>
+
+          <div>
+            <label for="email" style="width: 150px; display: inline-block"
+              >E-Mail</label
+            >
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <div>
+            <label for="phone" style="width: 150px; display: inline-block"
+              >Tel.<br />
+              <small>1234-12345</small>
+            </label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              pattern="[0-9]{4}-[0-9]{5}"
+            />
+          </div>
+
+          <div>
+            <label for="iban" style="width: 150px; display: inline-block"
+              >IBAN</label
+            >
+            <input type="text" name="iban" id="iban" />
+          </div>
+          <div>
+            <label
+              for="ausweiskopie"
+              style="width: 145px; display: inline-block"
+              alt="Ausweiskopie hochgeladen"
+              >Ausweiskopie</label
+            >
+            <input
+              type="checkbox"
+              name="ausweiskopie"
+              id="ausweiskopie"
+              unchecked
+            />
+          </div>
+
+          <div>
+            <label for="wertsachen" style="width: 145px; display: inline-block"
+              >Vermögen</label
+            >
+            <!-- Auswahlbox mit 3 Möglichkeiten  -->
+            <!-- Name muss bei allen Auswahlen gleich sein -->
+            <!-- Das Feld ID bekommt einen eigenen Wert pro Element -->
+            <!-- In Value steht der Wert welcher bei Auswahl übergeben wird -->
+            <input
+              type="radio"
+              name="vermoegen"
+              id="immobilie"
+              value="immobilie"
+            />
+            <label for="immobilie">Immobilie</label>
+            <input type="radio" name="vermoegen" id="schmuck" value="schmuck" />
+            <label for="schmuck">Schmuck</label>
+            <input type="radio" name="vermoegen" id="bargeld" value="bargeld" />
+            <label for="bargeld">Bargeld</label>
+          </div>
+        </fieldset>
+        <button
+          type="reset"
+          style="width: 100px; height: 50px; margin-top: 10px"
+        >
+          Neu
+        </button>
+        <button
+          type="submit"
+          style="width: 100px; height: 50px; margin-top: 10px; float: right"
+        >
+          fire!
+        </button>
+      </form>
+    </section>
+  </body>
+</html>
