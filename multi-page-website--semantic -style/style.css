@@ -5,8 +5,9 @@
 }
 
 .container_page_size {
-  outline: solid thick red;
-  width: 600;
+  border: solid thick green;
+  width: 600px;
+  height: 600px;
 }
 
 body {
@@ -15,6 +16,10 @@ body {
   /* background-color: #efefef; */
   background-image: url("Travel_To_Jamaica.jpg");
   background-size: 120%;
+}
+
+header h1 {
+  text-align: center;
 }
 
 nav {
@@ -41,4 +46,16 @@ button {
 
 #ort {
   width: 127px;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
 }
