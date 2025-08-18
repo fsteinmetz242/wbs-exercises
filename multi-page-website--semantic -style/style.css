@@ -9,6 +9,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   /* background-color: #efefef; */
   background-image: url("Travel_To_Jamaica.jpg");
+  background-size: 120%;
 }
 
 nav {
@@ -20,4 +21,19 @@ label {
   width: 150px;
   display: inline-block;
   border: solid thin red;
+  color: white;
+}
+
+button {
+  border-radius: 1rem;
+}
+
+#plz {
+  border: blue solid thin;
+  width: 45px;
+  padding-right: 0;
+}
+
+#ort {
+  width: 127px;
 }
