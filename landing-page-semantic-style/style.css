@@ -29,7 +29,7 @@ main section {
 }
 
 section {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.6rem;
 }
 
 /*
@@ -39,7 +39,7 @@ section h2 {
 */
 
 section ul {
-  margin-top: 0.5rem;
+  margin-top: 0.3rem;
 }
 
 li {
@@ -58,4 +58,23 @@ img:hover {
 
 input:required {
   border: thin solid red;
+}
+
+legend {
+  margin-bottom: 1rem;
+}
+
+form div label {
+  margin-bottom: 0.2rem;
+}
+
+footer {
+  margin-left: 1rem;
+}
+
+button {
+  border-radius: 0.5rem;
+  width: 4rem;
+  height: 2rem;
+  font-weight: bold;
 }
