@@ -8,6 +8,7 @@
   border: solid thick green;
   width: 600px;
   height: 600px;
+  margin: auto; /* DIV mittig zentriueren */
 }
 
 body {
@@ -28,9 +29,8 @@ nav {
 }
 
 label {
-  width: 150px;
+  width: 140px;
   display: inline-block;
-  border: solid thin red;
   color: white;
 }
 
