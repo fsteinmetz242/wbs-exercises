@@ -15,7 +15,9 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   /* background-color: #efefef; */
   background-image: url("Travel_To_Jamaica.jpg");
-  background-size: 120%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 header h1 {
@@ -60,4 +62,37 @@ li a {
 
 li a:hover {
   text-decoration: underline;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  /* color: inherit; */
+  color: rgb(25, 28, 206);
+  font-weight: bold;
+}
+
+.contact form {
+  margin-top: 50%;
+}
+
+/* Falls Screen < 600 */
+@media only screen and (max-width: 600px) {
+  label {
+    display: none;
+  }
+  input::placeholder {
+    color: gray;
+  }
+}
+
+/* Falls Screen > 600 */
+@media only screen and (min-width: 600px) {
+  label {
+    display: inline-block;
+  }
+  input::placeholder {
+    color: transparent;
+  }
 }

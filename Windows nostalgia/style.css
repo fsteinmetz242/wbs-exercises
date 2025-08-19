@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container_page_size {
+  width: 600px;
+  height: 600px;
+  margin: auto; /* DIV mittig zentriueren */
+}
