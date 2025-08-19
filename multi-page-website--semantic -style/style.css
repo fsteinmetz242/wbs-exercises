@@ -5,7 +5,6 @@
 }
 
 .container_page_size {
-  border: solid thick green;
   width: 600px;
   height: 600px;
   margin: auto; /* DIV mittig zentriueren */
@@ -28,6 +27,10 @@ nav {
   margin-bottom: 2rem;
 }
 
+fieldset {
+  border: none;
+}
+
 label {
   width: 140px;
   display: inline-block;
@@ -39,7 +42,6 @@ button {
 }
 
 #plz {
-  border: blue solid thin;
   width: 45px;
   padding-right: 0;
 }
